@@ -44,7 +44,7 @@ const sidebarItems = [
         <line x1="3" y1="10" x2="21" y2="10" />
       </svg>
     ),
-    link: '/',
+    link: '/pages/attendance',
   },
   {
     title: 'Details',

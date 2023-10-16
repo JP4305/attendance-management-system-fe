@@ -1,0 +1,26 @@
+.list {
+    @apply flex flex-col h-64;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+  }
+
+  .list::-webkit-scrollbar {
+    @apply rounded-full;
+    width: 8px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-slate-500;
+}
+
+.list::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+}
+
+.item{
+    @apply p-2;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 0 0 2px black;
+}

@@ -20,6 +20,7 @@
   }
   
   .logo {
+    /* @apply bg-transparent; */
     animation: rotateAnimation 5s normal infinite;
   }
 
