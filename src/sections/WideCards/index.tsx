@@ -1,3 +1,4 @@
+import AltStripes from '@/components/AltStripes/index'
 import DataCard from '@/components/DataCard/index'
 import Holidays from '@/components/Holidays/index'
 import Show from '@/components/Show/index'
@@ -8,7 +9,11 @@ const data = [
     {
         title: 'Attendance',
         contentComponent: Show,
-    }
+    },
+    {
+        title: 'Personal Details',
+        contentComponent: AltStripes,
+    },
 ]
 
 const WideCards = () => {

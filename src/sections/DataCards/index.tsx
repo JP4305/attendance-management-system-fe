@@ -26,10 +26,6 @@ const data = [
         //     title: '',
         //     contentComponent: ,
         // },
-        // {
-        //     title: 'Personal Details',
-        //     contentComponent: AltStripes,
-        // },
 ]
 
 const DataCards = () => {

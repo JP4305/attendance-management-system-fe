@@ -44,7 +44,7 @@ const sidebarItems = [
         <line x1="3" y1="10" x2="21" y2="10" />
       </svg>
     ),
-    link: '/pages/attendance',
+    link: '/attendance',
   },
   {
     title: 'Details',
@@ -131,7 +131,7 @@ const sidebarItems = [
         <path d="M12 5L21 12 12 19" />
       </svg>
     ),
-    link: '/',
+    link: '/auth/login',
   },
 ];
 const Sidebar = () => {
